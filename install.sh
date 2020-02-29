@@ -65,8 +65,6 @@ sudo snap install amass
 cd ~/tools/
 echo "done"
 
-
-
 echo "installing wpscan"
 git clone https://github.com/wpscanteam/wpscan.git
 cd wpscan*
@@ -79,13 +77,10 @@ git clone https://github.com/maurosoria/dirsearch.git
 cd ~/tools/
 echo "done"
 
-
-
 echo "installing virtual host discovery"
 git clone https://github.com/jobertabma/virtual-host-discovery.git
 cd ~/tools/
 echo "done"
-
 
 echo "installing sqlmap"
 git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
@@ -96,7 +91,6 @@ echo "installing knock.py"
 git clone https://github.com/guelfoweb/knock.git
 cd ~/tools/
 echo "done"
-
 
 echo "installing nmap"
 sudo apt-get install -y nmap
@@ -145,7 +139,7 @@ echo "downloading Arjun"
 git clone https://github.com/s0md3v/Arjun.git
 echo "done"
 
-echo "downloading fuff"
+echo "downloading ffuf"
 go get github.com/ffuf/ffuf
 echo "done"
 
